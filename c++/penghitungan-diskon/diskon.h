@@ -22,7 +22,7 @@ int main()
 
     // Kalkulasi disini
     total = item * harga; // penghitungan banyaknya jumlah barang dikalikan dengan harga /per barang
-    diskon = (item >= 5) ? 0.05 : (item >= 10) ? 0.1 : 0; // jikalau item lebih dari sama dengan 5 maka akan mendapatkan diskon sebesar 5% atau 0.05 , dan jika lebih dari sama dengan 10 maka akan mendapatkan diskon 10%
+    diskon = (item >= 10) ? 0.1 : (item >= 5) ? 0.05 : 0; // jikalau item lebih dari sama dengan 5 maka akan mendapatkan diskon sebesar 5% atau 0.05 , dan jika lebih dari sama dengan 10 maka akan mendapatkan diskon 10%
     totalWithDiskon =  total * diskon; // penghitungan harga total awal dikalikan dengan diskon yang hasilnya akan di store ke var totalWithDiskon
     hargaAkhir = total - totalWithDiskon; // penghitungan harga akhir dengan total awal dikurangi totaldiskon , total harga tidak ada koma jd pake int untuk storenya
 
