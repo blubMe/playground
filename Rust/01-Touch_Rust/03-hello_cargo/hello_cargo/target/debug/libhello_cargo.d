@@ -1,0 +1,1 @@
+/Users/pampam/Desktop/projects/playground/Rust/01-Touch_Rust/03-hello_cargo/hello_cargo/target/debug/libhello_cargo.rmeta: /Users/pampam/Desktop/projects/playground/Rust/01-Touch_Rust/03-hello_cargo/hello_cargo/src/main.rs
