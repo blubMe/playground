@@ -2,8 +2,8 @@ use std::io; // library untuk menggunakan i/o pada code
 // standart library bisa disebut std , dan io merupakan salah satu standart library
 
 fn main() { // fn main sebagai entry point
-    // println! merupakan command / macro untuk print string ke layar
-    println!("Ungkap perasaan"); // print out to console guess the number
+    // println! merupakan command / macro untuk print data ke layar
+    println!("Ungkap perasaan"); // print out to console Ungkap perasaan
     println!("Masukkan ungkapanmu :"); // printed also
 
     // let = variabel
