@@ -1,7 +1,7 @@
 fn main() {
     let x = String::from("Ar you mai owner ?");
     // ini merupakan contoh yang buruk , karena string "Ar you mai owner" berpindah owner
-    // x =[ownernya] => [value] , sedangkan jika kita pakai x = a
+    // x =[ownernya] => [value] , sedangkan jika kita pakai a = x
     // x => [tidak bisa , kamu bukan lagi ownernya] (XXX) || [value] <=[owner baru]= a
     let a = x;
 
