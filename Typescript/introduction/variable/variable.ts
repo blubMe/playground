@@ -39,3 +39,10 @@ enum color {red = 5,green,blue};
 
 let c: color = color.green
 console.log(c);
+
+
+let multiType: number | boolean;
+multiType = 20;
+multiType = false;
+multiType = true;
+multiType = 13;
