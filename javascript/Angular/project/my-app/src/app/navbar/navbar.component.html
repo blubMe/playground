@@ -1,0 +1,8 @@
+<p>
+  Welcome to the {{navTitle}}
+</p>
+<h2>Welcome to the {{navTitle}} {{2+2}}</h2>
+<h3>{{greeting()}}</h3>
+<input type="text" name="" id={{myId}} disabled={{isDisabled}} value="{{greeting()}}">
+<button (click)="changeStat($event)">change status</button>
+<h4 [ngStyle]="hasError ? {'color': 'red'} : {'color':'green'}" [ngClass]="messageText">IM CONDITIONAL</h4>
