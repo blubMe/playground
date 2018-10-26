@@ -10,6 +10,7 @@ export class NavbarComponent implements OnInit {
   myId: string = "capsuleID"
   isDisabled: boolean = true
   hasError: boolean = true
+  display= ():boolean => this.isDisabled && this.hasError ? true : false
   messageText: object = {
     "text-success": !this.hasError,
     "text-error": this.hasError
