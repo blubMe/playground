@@ -1,0 +1,15 @@
+{
+  "name": "wasm-hello",
+  "collaborators": [
+    "blubMe <fahmiirsyad10@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "wasm_hello_bg.wasm",
+    "wasm_hello.js",
+    "wasm_hello.d.ts"
+  ],
+  "module": "wasm_hello.js",
+  "types": "wasm_hello.d.ts",
+  "sideEffects": "false"
+}
