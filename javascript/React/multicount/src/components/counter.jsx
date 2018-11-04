@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Counter = (props) => (
+const Counter = props => (
     <div>
         <span>{props.counter.val}</span>
         <button onClick={() => props.onIncrement(props.counter)}>Increments</button>
