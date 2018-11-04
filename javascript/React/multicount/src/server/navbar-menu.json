@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Home",
+        "key": 1,
+        "url": "/"
+    },
+    {
+        "title": "contents",
+        "key": 2,
+        "url": "/contents"
+    },
+    {
+        "title": "about",
+        "key": 3,
+        "url": "/about"
+    }
+]
