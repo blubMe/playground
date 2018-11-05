@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <>
       <Header />
-      <Count counter={this.state.counts} onReset={this.handleReset} onIncrement={this.handleIncrement} onDelete={this.handleDelete}/>
+      <Count counter={this.state.counts} onReset={this.handleReset} onIncrement={this.handleIncrement} onDecrement={this.handleDecrement} onDelete={this.handleDelete}/>
       </>
     );
   }
@@ -22,6 +22,13 @@ class App extends Component {
     const i = countsClone.indexOf(counter)
     countsClone[i] = {...counter}
     countsClone[i].val++
+    this.setState({counts: countsClone})
+  }
+  handleDecrement = counter => {
+    const countsClone = [...this.state.counts]
+    const i = countsClone.indexOf(counter)
+    countsClone[i] = {...counter}
+    countsClone[i].val--
     this.setState({counts: countsClone})
   }
   handleDelete = counterId => {
