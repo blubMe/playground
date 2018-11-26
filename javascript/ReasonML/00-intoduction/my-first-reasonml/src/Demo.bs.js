@@ -2,6 +2,11 @@
 'use strict';
 
 
-console.log("Hello, BuckleScript and Reason!");
+var $$final = "Hello, ReasonML";
 
+console.log($$final);
+
+var greet = true;
+
+exports.greet = greet;
 /*  Not a pure module */
