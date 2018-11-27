@@ -54,8 +54,7 @@ app.get('/api/learns/:id',(req,res) => {
 })
 
 app.delete('/api/learns/:id',(req,res) => {
-    const t = learns.find(c => c.id === parseInt(req.params.id))
-    !t ? res.status(404).send('The course you search is nothing') : null
+    validateAndSend(404,req,res).sendNull()
 
     //delete
     const i = learns.indexOf(t)
