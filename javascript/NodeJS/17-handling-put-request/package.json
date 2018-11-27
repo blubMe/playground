@@ -1,0 +1,10 @@
+{
+  "name": "17-handling-put-request",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "joi": "^14.3.0"
+  }
+}
