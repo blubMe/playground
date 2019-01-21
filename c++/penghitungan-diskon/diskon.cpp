@@ -16,7 +16,7 @@ int main()
     cout << "|______________________________|"<< endl << endl;
     cout << "   Harga Rp. " << harga << "/btc" << endl<<endl; // memanggil isi dari variable harga untuk ditambilkan di terminal
     cout << "   Diskon 5% jika beli > 4 btc lebih" << endl;
-    cout << "   Diskon 10% jika beli > 9 btc lebih"<<endl << endl;
+    cout << "   Diskon 10% jika beli > 9 btc lebih"<<endl ~<< endl;
     cout << "   Beli :     btc\b\b\b\b\b\b\b"; // untuk info , di xcode \b tidak dapat digunakan . untuk windows dan linux bisa , kegunaan \b ini adalah sama dengan backspace
     cin >> item; // input data item
 
